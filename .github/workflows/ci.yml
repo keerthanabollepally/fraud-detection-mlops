@@ -36,7 +36,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.MLOPS}}
+          password: ${{ secrets.MLOPS }}
 
       - name: Push Docker image
         run: |
