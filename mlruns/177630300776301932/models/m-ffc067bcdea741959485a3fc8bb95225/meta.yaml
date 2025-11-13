@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/SAI%20CHARAN%20RAJU/OneDrive/Desktop/fraud-detection-mlops/mlruns/177630300776301932/models/m-ffc067bcdea741959485a3fc8bb95225/artifacts
+creation_timestamp: 1763016543389
+experiment_id: '177630300776301932'
+last_updated_timestamp: 1763016558955
+model_id: m-ffc067bcdea741959485a3fc8bb95225
+model_type: null
+name: model
+source_run_id: 7c9360af7dd94a588e93e6ba73dac9c8
+status: 2
+status_message: null

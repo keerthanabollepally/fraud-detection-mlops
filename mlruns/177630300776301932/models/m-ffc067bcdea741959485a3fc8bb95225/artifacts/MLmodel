@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/SAI%20CHARAN%20RAJU/OneDrive/Desktop/fraud-detection-mlops/mlruns/177630300776301932/models/m-ffc067bcdea741959485a3fc8bb95225/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.6.0
+model_id: m-ffc067bcdea741959485a3fc8bb95225
+model_size_bytes: 5880818
+model_uuid: m-ffc067bcdea741959485a3fc8bb95225
+prompts: null
+run_id: 7c9360af7dd94a588e93e6ba73dac9c8
+utc_time_created: '2025-11-13 06:49:03.463800'

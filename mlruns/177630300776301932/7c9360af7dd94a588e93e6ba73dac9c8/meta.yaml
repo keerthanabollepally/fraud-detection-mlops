@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/SAI%20CHARAN%20RAJU/OneDrive/Desktop/fraud-detection-mlops/mlruns/177630300776301932/7c9360af7dd94a588e93e6ba73dac9c8/artifacts
+end_time: 1763016558984
+entry_point_name: ''
+experiment_id: '177630300776301932'
+lifecycle_stage: active
+run_id: 7c9360af7dd94a588e93e6ba73dac9c8
+run_name: rf-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763015950006
+status: 3
+tags: []
+user_id: SAI CHARAN RAJU
