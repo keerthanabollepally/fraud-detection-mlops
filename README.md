@@ -15,25 +15,15 @@ A fully production-ready MLOps pipeline for real-time financial fraud detection 
 ⦁	GitHub Actions CI/CD automation
 
 ⦁	Prometheus + Grafana for monitoring
-
-
-# 📸 System Architecture
-
-fraud-detection-mlops/
-│
-├── data/
-├── src/
-│ ├── preprocess.py
-│ ├── train.py
-│ ├── inference.py
-│ └── app/server.py
-│
-├── models/
-├── dvc.yaml
-├── Dockerfile
-├── prometheus.yml
-├── docker-compose.yaml
-└── .github/workflows/ci.yml
+## 📑 Table of Contents
+- [System Architecture](#-system-architecture)
+- [Tech Stack](#-tech-stack)
+- [Setup Instructions](#️-setup-instructions-local)
+- [Deployment](#-deployment-render)
+- [API Usage](#-api-usage)
+- [CI/CD Pipeline](#-cicd-pipeline-github-actions)
+- [Monitoring](#-monitoring-with-prometheus--grafana)
+- [Key Achievements](#-key-achievements)
 
 # 🏗️ Tech Stack
 
@@ -129,4 +119,11 @@ Example Response :
 
 ⦁	Real-time monitoring & logs
 
+# 🚀 Future Improvements
+- Automatic retraining pipeline using Airflow
+- Model drift detection and alerting
+- Canary deployments or A/B testing
+- Move to Kubernetes + Helm for scalable orchestration
+
 ⦁	Enterprise-level workflow using modern MLOps stack
+
