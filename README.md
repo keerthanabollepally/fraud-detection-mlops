@@ -40,28 +40,31 @@ A fully production-ready MLOps pipeline for real-time financial fraud detection 
 
 # 1️⃣ Clone the repository
 
-⦁	git clone https://github.com/keerthanabollepally/fraud-detection-mlops.git
-⦁	cd fraud-detection-mlops
+git clone https://github.com/keerthanabollepally/fraud-detection-mlops.git
+
+cd fraud-detection-mlops
 
 # 2️⃣ Install dependencies
 
 
-⦁	pip install -r requirements.txt
+pip install -r requirements.txt
 
 # 3️⃣ Pull data using DVC
-⦁	dvc pull
+
+dvc pull
 
 # 4️⃣ Run preprocessing
 
-⦁	python src/preprocess.py
+python src/preprocess.py
 
 # 5️⃣ Train the model
 
-⦁	python src/train.py
+python src/train.py
 
 # 6️⃣ Run FastAPI locally
 
-⦁	uvicorn src.app.server:app --reload
+uvicorn src.app.server:app --reload
+
 # ☁️ Deployment (Render)
 
 Your API runs live at:
@@ -126,4 +129,5 @@ Example Response :
 - Move to Kubernetes + Helm for scalable orchestration
 
 ⦁	Enterprise-level workflow using modern MLOps stack
+
 
